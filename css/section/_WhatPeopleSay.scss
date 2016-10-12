@@ -1,0 +1,73 @@
+.Whatpeoplesay {
+    width: 100%;
+    min-width: 1200px;
+    height: 830px;
+    margin-bottom: 107px;
+    background-image: url('/image/bg/BG_SAY.png');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 106px 0 0 0;
+}
+.Whatpeoplesay__list {
+    width: 1200px;
+    margin-top: 85px;
+}
+.Whatpeoplesay__item {
+    width: 50%;
+    min-height: 190px;
+    float: left;
+    margin-bottom: 40px;
+}
+.Whatpeoplesay__item-left {
+    width: 175px;
+    height: 190px;
+    float: left;
+}
+.Whatpeoplesay__item-left__pic {
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 0 0 38px;
+}
+.Whatpeoplesay__item-left__pic-img {}
+.Whatpeoplesay__item-top {
+    width: 425px;
+    height: 95px;
+    float: right;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 3px;
+}
+.Whatpeoplesay__item-top__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: "Montserrat-Regular";
+    margin: 9px 0 11px 0;
+}
+.Whatpeoplesay__item-top__type {
+    color: #333333;
+    font-size: 15px;
+    font-family: "Roboto-LightItalic";
+    margin-bottom: 6px;
+}
+.Whatpeoplesay__item-bottom {
+    width: 425px;
+    height: 95px;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 6px;
+}
+.Whatpeoplesay__item-bottom__text {
+    font-family: "Roboto-Regular";
+    color: #999999;
+    font-size: 15px;
+    line-height: 23px;
+    width: 94%;
+    margin: 0;
+}
+.horizont__line-pink__inline {
+    display: inline-block;
+}

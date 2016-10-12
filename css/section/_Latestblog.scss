@@ -1,0 +1,101 @@
+.latestblog {
+    width: 100%;
+    min-width: 1200px;
+    margin-bottom: 100px;
+}
+.latestblog__list {
+    margin-top: 44px;
+}
+.latestblog__list-item {
+    width: 380px;
+    height: 400px;
+    float: left;
+    margin-right: 30px;
+}
+.latestblog__item-top {
+    width: 380px;
+    height: 240px;
+    position: relative;
+}
+.latestblog__item-top {
+    &__data {
+        width: 60px;
+        height: 70px;
+        background: #95e1d3;
+        position: absolute;
+        bottom: 10px;
+        left: -10px;
+        text-align: center;
+        &-num {
+            font-family: "Montserrat-Bold";
+            font-size: 30px;
+            color: #fff;
+            margin-top: 8px;
+        }
+        &-mo {
+            font-family: "Roboto-LightItalic";
+            font-size: 15px;
+            color: #fff;
+        }
+    }
+}
+.latestblog__item-middle {
+    height: 92px;
+    border-bottom: 1px solid #e5e5e5;
+    &__title {
+        font-family: "Montserrat-Regular";
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #333333;
+        margin-top: 17px;
+        margin-bottom: 14px;
+    }
+    &__text {
+        font-family: "Roboto-Regular";
+        font-size: 15px;
+        color: #999999;
+        line-height: 22px;
+    }
+}
+.latestblog__item-bottom {
+    box-sizing: border-box;
+    height: 50px;
+    font-family: "Roboto-LightItalic";
+    color: #999999;
+    font-size: 15px;
+    &__views {
+        display: inline-block;
+        line-height: 50px;
+        margin-right: 15px;
+        &-icon {
+            display: inline-block;
+            margin-right: 3px;
+            width: 20px;
+            height: 12px;
+            background-image: url('/image/icon/icon_views.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-text {
+            display: inline-block;
+        }
+    }
+    &__comment {
+        display: inline-block;
+        &-icon {
+            display: inline-block;
+            width: 16px;
+            height: 15px;
+            background-image: url('/image/icon/icon_comment.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0px 0 -3px 0;
+        }
+        &-text {
+            display: inline-block;
+        }
+    }
+}
+.latestblog__list-item_nomarg{
+    margin-right: 0;
+}

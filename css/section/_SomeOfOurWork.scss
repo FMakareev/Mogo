@@ -1,0 +1,187 @@
+.someofourwork {
+    width: 100%;
+    min-width: 1200px;
+    margin-bottom: 95px;
+}
+.someofourwork__list {
+    margin-top: 100px;
+    margin-bottom: 61px;
+    width: 100%;
+    min-width: 1200px;
+}
+.someofourwork__list-left {
+    width: 50%;
+    max-height: 780px;
+    float: left;
+}
+.someofourwork__list-right {
+    float: right;
+    width: 50%;
+    max-height: 780px;
+}
+.someofourwork__list-item {
+    float: left;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.someofourwork__list-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.someofourwork__list-img_masc {
+     /* IE10+ */
+    background-image: -ms-linear-gradient(bottom, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(bottom, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    /* Opera */
+    background-image: -o-linear-gradient(bottom, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(227, 204, 124, .8)), color-stop(100, rgba(219, 116, 116, .8)));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(bottom, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    /* W3C Markup */
+    background-image: linear-gradient(to top, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+.someofourwork__list-item_desc {
+    width: 180px;
+    height: 120px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+.someofourwork__list-item_icon {
+    background-image: url('/image/decor/info_icon1.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 50px;
+}
+.someofourwork__list-item_title {
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 6px 0 11px 0;
+}
+.someofourwork__list-item_text {
+    font-family: "Roboto-LightItalic";
+    font-size: 15px;
+    color: #fff;
+}
+.someofourwork__list-img_masc-height {
+    height: 780px;
+}
+
+
+.someofourwork__list-item:hover .someofourwork__list-img_masc {
+    opacity: 1;
+}
+.someofourwork__slider-container {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 290px;
+    margin: 0 auto;
+}
+.someofourwork__slider-arrow {
+    width: 58px;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#someofourwork__slider-arrow-left {
+    float: left;
+    background-image: url('/image/icon/SLIDER_ARROW_left.png');
+}
+#someofourwork__slider-arrow-right {
+    float: right;
+    background-image: url('/image/icon/SLIDER_ARROW_right.png');
+}
+#someofourwork__slide-list {
+    width: 1084px;
+    height: 290px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.someofourwork__slide-item {
+    width: 100%;
+    min-width: 1084px;
+    height: 290px;
+    position: absolute;
+    transition-duration: 0.5s;
+}
+
+#someofourwork__slide-item_1{
+    left: -100%;
+}
+#someofourwork__slide-item_2{
+    left: 0%;
+}
+#someofourwork__slide-item_3{
+    left: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.someofourwork__slide-icon {
+    float: left;
+    width: 254px;
+    height: 290px;
+    background-image: url('/image/content/slider2_icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.someofourwork__slide-text {
+    float: left;
+    width: 790px;
+    height: 120px;
+    color: #999;
+    font-family: "Roboto-LightItalic";
+    font-size: 24px;
+    margin-top: 74px;
+    line-height: 35px;
+}
+.someofourwork__slide-sign {
+    font-family: "KaushanScript-Regular";
+    font-size: 24px;
+    color: #333;
+    float: left;
+    width: 288px;
+    height: 30px;
+    line-height: 30px;
+}
+.horizont__line-inline {
+    display: inline-block;
+    margin: 0 4px 3px 10px;
+}

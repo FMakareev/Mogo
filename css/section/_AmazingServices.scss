@@ -1,0 +1,59 @@
+.amazingservices {
+    width: 100%;
+    min-width: 1200px;
+    margin-bottom: 26px;
+}
+.amazingservices__list {
+    margin-top: 60px;
+}
+.amazingservices__item {
+    width: 400px;
+    height: 123px;
+    margin-bottom: 45px;
+    float: left;
+}
+.amazingservices__item-border {
+    border-bottom: 1px solid #e5e5e5;
+}
+.amazingservices__icon {
+    width: 90px;
+    height: 123px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: 54% 5%;
+}
+.amazingservices__title {
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular";
+    width: 310px;
+    height: 30px;
+    float: left;
+}
+.amazingservices__text {
+    font-size: 15px;
+    color: #999999;
+    font-family: "Roboto-Regular";
+    width: 310px;
+    float: left;
+    line-height: 24px;
+}
+.amazingservices__icon-photo {
+    background-image: url('/image/decor/services_icon1.png');
+}
+.amazingservices__icon-design {
+    background-image: url('/image/decor/services_icon2.png');
+}
+.amazingservices__icon-creativ {
+    background-image: url('/image/decor/services_icon3.png');
+}
+.amazingservices__icon-seo {
+    background-image: url('/image/decor/services_icon4.png');
+}
+.amazingservices__icon-css {
+    background-image: url('/image/decor/services_icon5.png');
+}
+.amazingservices__icon-digital {
+    background-image: url('/image/decor/services_icon6.png');
+}

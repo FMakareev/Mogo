@@ -1,0 +1,23 @@
+.uniquedisign {
+    width: 100%;
+    height: 850px;
+    background-image: url('/image/bg/BG_for_all_design.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 106px;
+}
+.uniquedisign__container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 850px;
+    box-sizing: border-box;
+    padding-top: 105px;
+}
+.uniquedisign__image {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 35px;
+    top: 43px;
+}

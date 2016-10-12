@@ -1,0 +1,118 @@
+.meetourteam {
+    width: 100%;
+    min-width: 1200px;
+    margin-bottom: 152px;
+}
+.meetourteam__list {
+    margin: 92px 0 151px 0;
+}
+.meetourteam__item {
+    float: left;
+    margin: 0 30px 0 0;
+}
+.meetourteam__item-top {
+    width: 380px;
+    height: 470px;
+    box-sizing: border-box;
+    background: #95e1d3;
+    position: relative;
+}
+.meetourteam__item-img {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition-duration: 0.2s;
+}
+.meetourteam__item-top_masc {
+    opacity: 0;
+    transition-duration: 0.2s;
+    width: 380px;
+    height: 470px;
+     /* IE10+ */
+    background-image: -ms-linear-gradient(bottom, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(bottom, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    /* Opera */
+    background-image: -o-linear-gradient(bottom, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(227, 204, 124, .8)), color-stop(100, rgba(219, 116, 116, .8)));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(bottom, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    /* W3C Markup */
+    background-image: linear-gradient(to top, rgba(227, 204, 124, .8) 0%, rgba(219, 116, 116, .8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.meetourteam__item-social-list {
+    width: 224px;
+    height: 56px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+.meetourteam__item-sicial__item {
+    float: left;
+}
+.meetourteam__item-social__link {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+}
+.meetourteam__item-social__link-fb {
+    background-image: url('/image/icon/sprit_social.png');
+    background-position: 0% 0%;
+}
+.meetourteam__item-social__link-tw {
+    background-image: url('/image/icon/sprit_social.png');
+    background-position: 34% 0%;
+}
+.meetourteam__item-social__link-pin {
+    background-image: url('/image/icon/sprit_social.png');
+    background-position: 67% 0%;
+}
+.meetourteam__item-social__link-in {
+    background-image: url('/image/icon/sprit_social.png');
+    background-position: 100% 0%;
+}
+.meetourteam__item-top:hover .meetourteam__item-img {
+    top: -10px;
+    left: -10px;
+    transition-duration: 0.2s;
+}
+.meetourteam__item-top:hover .meetourteam__item-top_masc {
+    top: -10px;
+    left: -10px;
+    opacity: 1;
+    
+    
+    transition-duration: 0.2s;
+}
+.meetourteam__item-bottom {
+    height: 63px;
+    text-align: center;
+    padding-top: 27px;
+}
+.meetourteam__item-title {
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+.meetourteam__item-type {
+    font-family: "Roboto-LightItalic";
+    font-size: 15px;
+    color: #999;
+}
+.meetourteam__item-nomarg {
+    margin: 0;
+}
+.global__text-margin {
+    margin-bottom: 79px;
+}
